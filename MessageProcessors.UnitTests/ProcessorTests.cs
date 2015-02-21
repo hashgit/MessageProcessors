@@ -34,6 +34,25 @@ namespace MessageProcessors.UnitTests
         }
 
         [TestMethod]
+        public void FailWithWrongMessageType()
+        {
+            var message = new BirthDayMessage()
+            {
+                MessageId = Guid.NewGuid(),
+                MessageType = "abc",
+                Name = "Tony Abbot",
+                StandardMessageText = "Happy Birthday Mate",
+                Gift = "TimTam",
+                BirthDate = DateTime.Parse("01/10/1958")
+            };
+
+            var executor = new ProcessExecutor();
+            var result = executor.Process(message);
+
+            Assert.IsFalse(result);
+        }
+
+        [TestMethod]
         public void CanProcessChildBirthMessage()
         {
             var message = new ChildBirthMessage()
