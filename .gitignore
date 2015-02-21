@@ -1,0 +1,68 @@
+###################
+# compiled source #
+###################
+*.com
+*.class
+#*.dll
+#*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+# Include dlls if they’re in the NuGet packages directory
+!packages/*
+####################
+# VS Upgrade stuff #
+####################
+UpgradeLog.XML
+_UpgradeReport_Files/
+###############
+# Directories #
+###############
+bin/
+obj/
+TestResults/
+###################
+# Web publish log #
+###################
+*.Publish.xml
+#############
+# Resharper #
+#############
+/_ReSharper.*
+*.ReSharper.*
+############
+# Packages #
+############
+# it’s better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+######################
+# Logs and databases #
+######################
+*.log
+*.sqlite
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+/packages/ValueInjecter.2.3.3
+/Incredo.LoanMarket.Web/App_Data/aspnet-Incredo.LoanMarket.Web-20141202084710.mdf
+/Incredo.LoanMarket.Web/App_Data/aspnet-Incredo.LoanMarket.Web-20141202084710_log.ldf
+/Prototyping/Incredo.PublicApi.WebDemo/App_Data/aspnet-Incredo.PublicApi.WebDemo-20141209013955.mdf
+/Prototyping/Incredo.PublicApi.WebDemo/App_Data/aspnet-Incredo.PublicApi.WebDemo-20141209013955_log.ldf
+Incredo.sln.DotSettings.user
+/Incredo.Web/App_Data/aspnet-Incredo-20141030120421.mdf
+/Incredo.Web/App_Data/aspnet-Incredo-20141030120421_log.ldf
+Incredo.Dashboard/Incredo.Dashboard.csproj.user
+Incredo.sln.DotSettings.user
+Incredo.sln.DotSettings.user
